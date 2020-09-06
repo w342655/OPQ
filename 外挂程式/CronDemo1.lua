@@ -52,7 +52,7 @@ function TaskTwo(CurrentQQ, task)
     local html = response.body
     local j = json.decode(html)
     --解码json
-    SendGroupText(CurrentQQ, 123456789, j.errmsg)
+    SendGroupText(CurrentQQ, 3264636598, j.errmsg)
     --结果上报到群
     str = string.format("%s%s task ticks %d taskid %d", "TaskTwo", "done", task.Ticks, task.TaskID)
     log.info("Crondemo1.lua Log\n%s", str)
